@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "NET-V4: NYC-EMS-Traffic Benchmark for Intervention-Aware Spatiotemporal Forecasting"
+abstract: >
+  NYC-EMS-Traffic V4 (NET-V4) is a spatiotemporal benchmark dataset that aligns
+  New York City DOT traffic observations with FDNY EMS dispatch records. The dataset
+  contains 33,076 localized samples (20,000 EV-active, 13,076 control) centered on
+  emergency dispatch locations, each comprising an 8-node subgraph over a 24-timestep
+  window at 15-minute aggregation. A continuous 363-node graph with 14,388 edges is
+  provided for whole-graph architectures. Temporal coverage spans January 2018 through
+  December 2023 across all five NYC boroughs.
+version: "4.0"
+date-released: "2026-05-01"
+license: "CC-BY-4.0"
+url: "https://anonymous.4open.science/r/net-v4-dataset-903C"
+repository-code: "https://anonymous.4open.science/r/net-v4-dataset-903C"
+keywords:
+  - spatiotemporal forecasting
+  - traffic prediction
+  - benchmark dataset
+  - emergency vehicle dispatch
+  - intervention-aware evaluation
+  - NYC OpenData
+  - graph neural network
+  - urban computing
+authors:
+  - name: "Anonymous"
+references:
+  - type: software
+    title: "NYC OpenData - Automated Traffic Volume Counts (ATR)"
+    url: "https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt"
+    institution:
+      name: "NYC Department of Transportation"
+  - type: software
+    title: "NYC OpenData - EMS Incident Dispatch Data"
+    url: "https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj"
+    institution:
+      name: "NYC Fire Department (FDNY)"
